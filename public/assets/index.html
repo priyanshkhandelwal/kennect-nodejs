@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js">
+    </script>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <h1>Welcome to this small app</h1>
+        <form>
+            <label for="calendar-option">Select a suitable option for which you need to get your answer</label>
+            <select id="calendar-option">
+                <option value="1">Add, 6 days to today</option>
+                <option value="2">Add, 6 weeks to today</option>
+                <option value="3">Subtract, 187 days from 12-Jan-2019</option>
+            </select>
+            <button id="btn">Submit</button>
+        </form>
+        <div style="font-size: 20px; color: purple; font-weight: bold;" id="date"></div>
+    </main>
+    <script src="/assets/function.js"></script>
+</body>
+
+</html>
